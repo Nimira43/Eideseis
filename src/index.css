@@ -50,6 +50,7 @@ html {
   height: 100vh;
   background: var(--dark);
   display: grid;
+  place-items: center;
 }
 
 .logo {
