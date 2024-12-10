@@ -45,9 +45,10 @@ html {
   --border-radius-lg: 0.5rem; /* 8px */
 }
 
-body {
-  background-color: var(--dark);
-  color: var(--light);
+
+
+.container {
+
 }
 
 .logo {
