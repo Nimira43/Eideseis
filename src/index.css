@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 :root {
   --primary: #012222;
   --secondary: #2aa9a9;
