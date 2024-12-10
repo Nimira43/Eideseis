@@ -1,10 +1,11 @@
-function App() {
+import NewsPage from './components/News'
 
-  return (
+const App = () => {
+  return ( 
     <div>
-      <h1>Eidesis</h1>
+      <NewsPage />
     </div>
-  )
+   )
 }
-
+ 
 export default App
