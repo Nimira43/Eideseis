@@ -14,10 +14,15 @@
   min-height: 7rem;
   background-color: var(--black);
   border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
 }
 
 .logo {
   font-family: 'Bree Serif', serif;
+  font-weight: lighter;
 }
 
 .news-content {
