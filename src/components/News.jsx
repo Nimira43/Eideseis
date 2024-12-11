@@ -1,6 +1,7 @@
-import '../css/News.css'
 import Weather from './Weather'
 import Calendar from './Calendar'
+import '../css/News.css'
+import userImage from '../assets/images/user.jpg'
 
 const NewsPage = () => {
   return ( 
@@ -16,7 +17,10 @@ const NewsPage = () => {
       </header>
       <div className='news-content'>
         <div className='navbar'>
-          <div className='user'>User</div>
+          <div className='user'>
+            <img src={userImage} alt="Lucy Blog" />
+            <p>Lucy's Blog</p>
+          </div>
           <nav className='categories'>Categories</nav>
         </div>
         <div className='news-section'>
