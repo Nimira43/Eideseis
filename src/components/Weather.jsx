@@ -1,6 +1,6 @@
 const Weather= () => {
   return ( 
-    <div>
+    <div className="weather">
       Weather
     </div>
    )

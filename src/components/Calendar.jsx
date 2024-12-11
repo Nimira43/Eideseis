@@ -1,6 +1,6 @@
 const Calendar = () => {
   return ( 
-    <div>
+    <div className="calendar">
       Calendar
     </div>
    )
