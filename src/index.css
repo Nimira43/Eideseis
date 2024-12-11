@@ -48,9 +48,17 @@ html {
 .container {
   width: 100%;
   height: 100vh;
-  background: var(--dark);
+  background: var(--primary);
   display: grid;
   place-items: center;
+}
+
+.news-blog-app {
+  width: 95vw;
+  height: 95vmin;
+  background-color: var(--dark);
+  border: var(--size-1) dotted var(--third);
+  border-radius: var(--size-5);
 }
 
 .logo {
