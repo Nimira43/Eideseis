@@ -17,6 +17,7 @@ const NewsPage = () => {
         <div className='my-blogs'>My Blogs</div>
         <Weather />
         <Calendar />
+        <footer className="news-footer"></footer>
       </div>
     </div>
    )
