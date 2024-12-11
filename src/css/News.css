@@ -133,4 +133,80 @@
   border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
 }
 
-
+@media (max-width: 1400px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 900px) {
+  .news {
+    height: 100%;
+  }
+  .news-content {
+    flex-direction: column;
+    width: 100%;
+    height: 200rem;
+    row-gap: 2rem;
+  }
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 18rem;
+  }
+  .user {
+    width: calc(30% - 2rem);
+    height: 100%;
+  }
+  .categories {
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem
+  }
+  .news-section {
+    width: 100%;
+  }
+  .my-blogs {
+    width: 100%;
+  }
+  .weather-calendar {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .news-header {
+    padding: 0 2rem;
+  }
+  .logo {
+    font-size: 3.5rem;
+  }
+  .search-bar input {
+    width: 18rem;
+  }
+  .search-bar input:focus {
+    width: 23rem;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 30rem;
+    margin-bottom: 2rem;
+  }
+  .user {
+    width: 100%;
+    min-height: 40%;
+  }
+  .categories {
+    width: 100%;
+  }
+  .weather-calendar {
+    flex-direction: column;
+  }
+  .news-footer {
+    min-height: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+}
