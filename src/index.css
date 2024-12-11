@@ -95,3 +95,10 @@ html {
   height: calc(100% - 16rem);
   padding: 0 2rem;
 }
+
+.news-footer {
+  width: 100%;
+  min-height: 5rem;
+  background-color: var(--black);
+  border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
+}
