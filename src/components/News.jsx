@@ -8,7 +8,7 @@ const NewsPage = () => {
     <div className='news'>
       <header className='news-header'>
         <h1 className='logo'>Eideseis</h1>
-        <div className="searchbar">
+        <div className="search-bar">
           <form>
             <input type="text" placeholder='Search News' />
             <button type='submit'><RxMagnifyingGlass /></button>

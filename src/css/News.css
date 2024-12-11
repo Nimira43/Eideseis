@@ -28,6 +28,20 @@
   text-shadow: var(--size-1) var(--size-1) var(--size-1) var(--light);
 }
 
+.search-bar input {
+  width: 25rem;
+  height: 4rem;
+  color: var(--light);
+  background-color: var(--dark);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  padding: 0 4rem 0 2rem;
+}
+
+.search-bar input:focus {
+  width: 35rem;
+}
+
 .news-content {
   display: flex;
   column-gap: 2rem;
