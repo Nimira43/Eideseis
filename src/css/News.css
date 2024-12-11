@@ -23,6 +23,9 @@
 .logo {
   font-family: 'Bree Serif', serif;
   font-weight: lighter;
+  font-size: 5rem;
+  color: var(--primary);
+  text-shadow: var(--size-1) var(--size-1) var(--size-1) var(--light);
 }
 
 .news-content {
