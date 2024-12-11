@@ -33,7 +33,7 @@ const NewsPage = () => {
               <a href="#" className="nav-link">Business</a>
               <a href="#" className="nav-link">Technology</a>
               <a href="#" className="nav-link">Science</a>
-              <a href="#" className="nav-link">Arts</a>
+              <a href="#" className="nav-link">Favourites<i class="fa-solid fa-heart"></i></a>
             </div>
           </nav>
         </div>
