@@ -1,9 +1,9 @@
 const Calendar = () => {
   return ( 
     <div>
-      Calendar
+      Calendar Page
     </div>
    )
 }
  
-export default Calenda
+export default Calendar

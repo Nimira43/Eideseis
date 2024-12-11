@@ -1,4 +1,4 @@
-const WeatherPage = () => {
+const Weather= () => {
   return ( 
     <div>
       Weather Page
@@ -6,4 +6,4 @@ const WeatherPage = () => {
    )
 }
  
-export default WeatherPage
+export default Weather
