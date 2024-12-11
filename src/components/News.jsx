@@ -27,7 +27,7 @@ const NewsPage = () => {
               <a href="#" className="nav-link">UK & Ireland</a>
               <a href="#" className="nav-link">Europe</a>
               <a href="#" className="nav-link">World</a>
-              <a href="#" className="nav-link">Sports</a>
+              <a href="#" className="nav-link">Sport</a>
               <a href="#" className="nav-link">Entertainment</a>
               <a href="#" className="nav-link">Health</a>
               <a href="#" className="nav-link">Business</a>

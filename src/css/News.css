@@ -82,6 +82,19 @@
   height: 20%;
   background-color: var(--black);
   border-radius: var(--border-radius-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  cursor: pointer;
+}
+
+.user img {
+  width: 7rem;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .categories {
