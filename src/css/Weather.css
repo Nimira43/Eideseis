@@ -5,3 +5,9 @@
   background-color: var(--black);
   border-radius: var(--border-radius-lg);
 }
+
+@media (max-width: 900px) {
+  .weather {
+    height: 100%;
+  }
+}
