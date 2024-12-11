@@ -111,6 +111,12 @@ html {
   border-radius: var(--border-radius-lg);
 }
 
+.news-section {
+  width: clamp(30rem, 43cqi, 40%);
+  height: 100%;
+  border-radius: var(--border-radius-lg);
+}
+
 .news-footer {
   width: 100%;
   min-height: 5rem;
