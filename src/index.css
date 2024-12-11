@@ -102,3 +102,11 @@ html {
   background-color: var(--black);
   border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
 }
+
+.navbar {
+  width: 18rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
