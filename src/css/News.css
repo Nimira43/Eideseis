@@ -28,6 +28,10 @@
   text-shadow: var(--size-1) var(--size-1) var(--size-1) var(--light);
 }
 
+.search-bar {
+  position: relative;
+}
+
 .search-bar input {
   width: 25rem;
   height: 4rem;
@@ -36,10 +40,26 @@
   border: none;
   border-radius: var(--border-radius-sm);
   padding: 0 4rem 0 2rem;
+  transition: width 0.3s;
 }
 
 .search-bar input:focus {
   width: 35rem;
+}
+
+.search-bar input:focus::placeholder {
+  color: transparent;
+}
+
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  color: var(--light);
+  font-size: 1.8rem;
 }
 
 .news-content {
