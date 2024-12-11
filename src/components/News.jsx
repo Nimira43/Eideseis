@@ -15,8 +15,10 @@ const NewsPage = () => {
             <div className='news-grid'>News Grid</div>
         </div>
         <div className='my-blogs'>My Blogs</div>
-        <Weather />
-        <Calendar />  
+        <div className="weather-calendar">
+          <Weather />
+          <Calendar />   
+        </div>
       </div>
       <footer className="news-footer">Footer</footer>
     </div>

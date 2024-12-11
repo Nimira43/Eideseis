@@ -88,3 +88,10 @@ html {
   background-color: var(--black);
   border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
 }
+
+.news-content {
+  display: flex;
+  column-gap: 2rem;
+  height: calc(100% - 16rem);
+  padding: 0 2rem;
+}

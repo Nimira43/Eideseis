@@ -1,7 +1,7 @@
 const Calendar = () => {
   return ( 
     <div>
-      Calendar Page
+      Calendar
     </div>
    )
 }
