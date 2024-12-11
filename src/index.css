@@ -40,6 +40,8 @@ html {
 
 .heading {
   font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .container {
@@ -54,7 +56,6 @@ html {
   width: 95vw;
   height: 95vmin;
   background-color: var(--dark);
-  color: var(--light);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--size-xs) var(--size-xs) var(--size-xxl) rgba(0, 0, 0, 0.8);
 }

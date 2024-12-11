@@ -19,7 +19,7 @@ const NewsPage = () => {
         <div className='navbar'>
           <div className='user'>
             <img src={userImage} alt="Lucy Blog" />
-            <p>Lucy's Blog</p>
+            <p class='heading'>Lucy's Blog</p>
           </div>
           <nav className='categories'>
             <h1 className='nav-heading'>Categories</h1>
