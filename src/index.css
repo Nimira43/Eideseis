@@ -17,6 +17,7 @@ html {
   --primary: #1d5ec8;
   --secondary: #4671bc;
   --third: #ff4500;
+  --black: #000;
   --dark: #111;
   --light: #fffaf0;
   --grey-dark: #333;
@@ -58,7 +59,7 @@ html {
   height: 95vmin;
   background-color: var(--dark);
   color: var(--light);
-  border-radius: var(--size-5);
+  border-radius: var(--border-radius-lg);
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
 }
 
@@ -79,4 +80,11 @@ html {
   flex-direction: column;
   justify-content: space-between;
   row-gap: 2rem;
+}
+
+.news-header {
+  width: 100%;
+  min-height: 7rem;
+  background-color: var(--black);
+  border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
 }
