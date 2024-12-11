@@ -1,7 +1,15 @@
 const NewsPage = () => {
   return ( 
     <div>
-      <h1>News Page</h1>
+      <div className="news">
+        <header className="news-header"></header>
+        <div className="news-content">
+          <div className="navbar">
+            <div className="user">User</div>
+            <nav className="categories">Categories</nav>
+          </div>
+        </div>
+      </div>
     </div>
    )
 }
