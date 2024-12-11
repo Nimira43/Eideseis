@@ -1,11 +1,20 @@
 import '../css/News.css'
 import Weather from './Weather'
 import Calendar from './Calendar'
+import { RxMagnifyingGlass } from 'react-icons/rx'
 
 const NewsPage = () => {
   return ( 
     <div className='news'>
-      <header className='news-header'>News Header</header>
+      <header className='news-header'>
+        <h1 className='logo'>Eideseis</h1>
+        <div className="searchbar">
+          <form>
+            <input type="text" placeholder='Search News' />
+            <button type='submit'><RxMagnifyingGlass /></button>
+          </form>
+        </div>
+      </header>
       <div className='news-content'>
         <div className='navbar'>
           <div className='user'>User</div>
