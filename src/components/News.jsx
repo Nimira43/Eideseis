@@ -4,7 +4,7 @@ import Calendar from './Calendar'
 const NewsPage = () => {
   return ( 
     <div className='news'>
-      <header className='news-header'></header>
+      <header className='news-header'>News Header</header>
       <div className='news-content'>
         <div className='navbar'>
           <div className='user'>User</div>
@@ -16,9 +16,9 @@ const NewsPage = () => {
         </div>
         <div className='my-blogs'>My Blogs</div>
         <Weather />
-        <Calendar />
-        <footer className="news-footer"></footer>
+        <Calendar />  
       </div>
+      <footer className="news-footer">Footer</footer>
     </div>
    )
 }
