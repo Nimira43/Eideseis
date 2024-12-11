@@ -1,7 +1,6 @@
 import '../css/News.css'
 import Weather from './Weather'
 import Calendar from './Calendar'
-import { RxMagnifyingGlass } from 'react-icons/rx'
 
 const NewsPage = () => {
   return ( 
@@ -11,7 +10,7 @@ const NewsPage = () => {
         <div className="search-bar">
           <form>
             <input type="text" placeholder='Search News' />
-            <button type='submit'><RxMagnifyingGlass /></button>
+            <button type='submit'><i class="fa-solid fa-magnifying-glass"></i></button>
           </form>
         </div>
       </header>
