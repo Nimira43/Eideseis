@@ -53,7 +53,7 @@ html {
   background-color: var(--dark);
   color: var(--light);
   border-radius: var(--border-radius-lg);
-  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+  box-shadow: var(--size-sm) var(--size-sm) 16px rgba(0, 0, 0, 0.8);
 }
 
 .logo {
@@ -107,6 +107,8 @@ html {
 .categories {
   width: 100%;
   height: calc(80% - 2rem);
+  background-color: var(--black);
+  border-radius: var(--border-radius-lg);
 }
 
 .news-footer {
