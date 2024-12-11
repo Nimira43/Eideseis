@@ -1,3 +1,5 @@
+import '../css/Calendar.css'
+
 const Calendar = () => {
   return ( 
     <div className="calendar">

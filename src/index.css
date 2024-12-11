@@ -146,22 +146,6 @@ html {
   row-gap: 2rem;
 }
 
-.weather {
-  width: 100%;
-  min-width: 28rem;
-  height: 45%;
-  background-color: var(--black);
-  border-radius: var(--border-radius-lg);
-}
-
-.calendar {
-  width: 100%;
-  min-width: 28rem;
-  height: calc(55% - 2rem);
-  background-color: var(--black);
-  border-radius: var(--border-radius-lg);
-}
-
 .news-footer {
   width: 100%;
   min-height: 5rem;
