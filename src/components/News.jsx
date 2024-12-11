@@ -1,3 +1,4 @@
+import '../css/News.css'
 import Weather from './Weather'
 import Calendar from './Calendar'
 
