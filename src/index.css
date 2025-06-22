@@ -60,7 +60,7 @@ html {
 .news-header {
   width: 100%;
   min-height: 7rem;
-  border-bottom: 0.2rem dotted var(--support);
+  border-bottom: 0.1rem dotted var(--support);
   border-radius: 1rem 1rem 0 0;
   display: flex;
   justify-content: space-between;
@@ -74,6 +74,19 @@ html {
   color: var(--main);
 }
 
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  width: 25rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 0.1rem dotted var(--grey-dark);
+  border-radius: 0.3rem;
+  padding: 0 4rem 0 2rem;
+  color: var(--main);
+}
 
 
 
