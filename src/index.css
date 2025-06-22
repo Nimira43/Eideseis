@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Smooch+Sans:wght@100..900&display=swap');
+
+* {
+  font-family: 'Smooth Sans', sans-serif;
+  font-weight: 300;
+}
+
+:root {
+  --light-1: #fff1e0;
+  --light-2: #fff9f5;
+  --support: #f2dfce; 
+  --gold: #ac9304;
+  --main: #0d7680;
+  --main-light: #18cbdc;
+  --main-dark: #0a585f;  
+  --dark: #111;
+  --grey: #333;
+}
+
+
+.logo {
+  font-family: 'Amatic SC', sans-serif;
+}
