@@ -17,7 +17,13 @@ const News = () => {
           </form>
         </div>
       </header>
-      News
+      <div className='news-content'>
+        <div className="navbar">
+          <div className="user">
+            
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
