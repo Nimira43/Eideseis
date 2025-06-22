@@ -1,7 +1,12 @@
-function App() {
+import News from "./components/News"
+
+const App = () => {
   return (
-    <div>
-      <h1>Eideseis</h1>
+    <div className='container'>
+      <div className='news-blogs-app'>
+        
+      </div>
+      <News />
     </div>
   )
 }
