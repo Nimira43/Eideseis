@@ -1,4 +1,4 @@
-import News from "./components/News"
+import News from './components/News'
 
 const App = () => {
   return (

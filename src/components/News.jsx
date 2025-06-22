@@ -1,5 +1,5 @@
 import { AiOutlineSearch } from 'react-icons/ai'
-import { GoBookmark } from "react-icons/go"
+import { GoBookmark } from 'react-icons/go'
 
 import userImage from '../assets/images/user.jpg'
 
@@ -23,7 +23,7 @@ const News = () => {
         <div className='search-bar'>
           <form>
             <input 
-              type="text"
+              type='text'
               placeholder='Search'
             />
             <button type='submit'>
@@ -33,21 +33,21 @@ const News = () => {
         </div>
       </header>
       <div className='news-content'>
-        <div className="navbar">
-          <div className="user">
+        <div className='navbar'>
+          <div className='user'>
             <img 
               src={userImage} 
-              alt="User" />
+              alt='User' />
             <p>by Lucy Kitson</p>
           </div>
-          <nav className="categories">
-            <h1 className="nav-heading">
+          <nav className='categories'>
+            <h1 className='nav-heading'>
               Categories
             </h1>
-            <div className="nav-links">
+            <div className='nav-links'>
               {categories.map((category => (
                 <a 
-                  href="#"
+                  href='#'
                   key={category}
                   className='nav-link'  
                 >
@@ -55,8 +55,8 @@ const News = () => {
                 </a>
               )))}
               <a 
-                href="#"  
-                className="nav-link"
+                href='#'  
+                className='nav-link'
               >
                 Bookmarks 
                 <GoBookmark />
@@ -64,9 +64,9 @@ const News = () => {
             </div>
           </nav>
         </div>
-        <div className="news-section">
-          <div className="headline">
-            <img src="" alt="" />
+        <div className='news-section'>
+          <div className='headline'>
+            <img src='' alt='' />
           </div>
         </div>
 
