@@ -64,6 +64,12 @@ const News = () => {
             </div>
           </nav>
         </div>
+        <div className="news-section">
+          <div className="headline">
+            <img src="" alt="" />
+          </div>
+        </div>
+
       </div>
     </div>
   )
