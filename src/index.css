@@ -70,6 +70,8 @@ html {
 
 .logo {
   font-family: 'Amatic SC', sans-serif;
+  font-size: 5rem;
+  color: var(--main);
 }
 
 
