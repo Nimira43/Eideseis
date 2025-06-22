@@ -110,6 +110,13 @@ html {
   padding-top: 0.5rem;
 }
 
+.news-content {
+  display: flex;
+  column-gap: 2rem;
+  height: calc(100% - 16rem); 
+  padding: 0 2rem;
+}
+
 
 @media (max-width: 1400px) {
   html {
