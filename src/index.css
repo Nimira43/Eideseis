@@ -17,6 +17,17 @@
   --grey: #333;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
 
 .logo {
   font-family: 'Amatic SC', sans-serif;

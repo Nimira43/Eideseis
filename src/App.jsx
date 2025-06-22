@@ -4,9 +4,8 @@ const App = () => {
   return (
     <div className='container'>
       <div className='news-blogs-app'>
-        
-      </div>
-      <News />
+        <News />
+      </div>  
     </div>
   )
 }
