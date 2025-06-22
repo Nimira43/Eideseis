@@ -86,8 +86,16 @@ html {
   border-radius: 0.3rem;
   padding: 0 4rem 0 2rem;
   color: var(--main);
+  transition: width 0.3s;
 }
 
+.search-bar input:focus {
+  width: 35rem;
+}
+
+.search-bar input:focus::placeholder {
+  color: transparent;
+}
 
 
 @media (max-width: 1400px) {
