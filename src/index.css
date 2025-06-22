@@ -97,6 +97,19 @@ html {
   color: transparent;
 }
 
+.search-bar button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  color: var(--main);
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding-top: 0.5rem;
+}
+
 
 @media (max-width: 1400px) {
   html {
