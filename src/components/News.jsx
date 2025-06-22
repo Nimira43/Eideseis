@@ -1,3 +1,5 @@
+import { AiOutlineSearch } from 'react-icons/ai'
+
 const News = () => {
   return (
     <div className='news'>
@@ -9,8 +11,8 @@ const News = () => {
               type="text"
               placeholder='Search'
             />
-            <button type='submiy'>
-              
+            <button type='submit'>
+              <AiOutlineSearch />
             </button>
           </form>
         </div>
