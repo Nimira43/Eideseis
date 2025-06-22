@@ -1,4 +1,6 @@
 import { AiOutlineSearch } from 'react-icons/ai'
+import { GoBookmark } from "react-icons/go"
+
 import userImage from '../assets/images/user.jpg'
 
 const categories = [
@@ -42,7 +44,24 @@ const News = () => {
             <h1 className="nav-heading">
               Categories
             </h1>
-            <div className="nav-links"></div>
+            <div className="nav-links">
+              {categories.map((category => (
+                <a 
+                  href="#"
+                  key={category}
+                  className='nav-link'  
+                >
+                  {category}
+                </a>
+              )))}
+              <a 
+                href="#"  
+                className="nav-link"
+              >
+                Bookmarks 
+                <GoBookmark />
+              </a>
+            </div>
           </nav>
         </div>
       </div>
