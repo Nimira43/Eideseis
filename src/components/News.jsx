@@ -1,6 +1,18 @@
 import { AiOutlineSearch } from 'react-icons/ai'
 import userImage from '../assets/images/user.jpg'
 
+const categories = [
+  'general',
+  'world',
+  'business',
+  'technology',
+  'sport',
+  'entertainment',
+  'science',
+  'health',
+  'national'
+]
+
 const News = () => {
   return (
     <div className='news'>
