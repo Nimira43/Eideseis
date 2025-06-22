@@ -226,3 +226,14 @@ html {
     display: none;
   }
  } 
+
+ .categories {
+  width: 100%;
+  height: calc(80%) - 2rem;
+  background-color: var(--support);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 2rem;
+ }
