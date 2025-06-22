@@ -1,4 +1,5 @@
 import { AiOutlineSearch } from 'react-icons/ai'
+import userImage from '../assets/images/user.jpg'
 
 const News = () => {
   return (
@@ -20,7 +21,10 @@ const News = () => {
       <div className='news-content'>
         <div className="navbar">
           <div className="user">
-            
+            <img 
+              src={userImage} 
+              alt="User" />
+            <p>by Lucy Kitson</p>
           </div>
         </div>
       </div>
