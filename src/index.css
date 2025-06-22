@@ -49,3 +49,23 @@ html {
 .logo {
   font-family: 'Amatic SC', sans-serif;
 }
+
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 59%;
+  }
+} 
+
+@media (max-width: 900px) {
+  .news-blogs-app {
+    height: 100%;
+    max-height: 90vh;
+  }
+} 
+
+@media (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+} 
