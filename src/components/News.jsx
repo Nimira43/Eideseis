@@ -26,6 +26,12 @@ const News = () => {
               alt="User" />
             <p>by Lucy Kitson</p>
           </div>
+          <nav className="categories">
+            <h1 className="nav-heading">
+              Categories
+            </h1>
+            <div className="nav-links"></div>
+          </nav>
         </div>
       </div>
     </div>
