@@ -1,6 +1,20 @@
 const News = () => {
   return (
-    <div>
+    <div className='news'>
+      <header className='news-header'> 
+        <h1 className='logo'>Eideseis</h1>
+        <div className='search-bar'>
+          <form>
+            <input 
+              type="text"
+              placeholder='Search'
+            />
+            <button type='submiy'>
+              
+            </button>
+          </form>
+        </div>
+      </header>
       News
     </div>
   )
